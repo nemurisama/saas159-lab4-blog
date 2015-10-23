@@ -667,3 +667,51 @@ Served asset /posts.js - 304 Not Modified (1ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-22 04:43:29 -0300
 Served asset /application.js - 304 Not Modified (50ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (38.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (49.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (30.7ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreatePosts (20151023054932)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "content" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20151023054932')[0m
+  [1m[35m (29.4ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-10-23 03:28:35 -0300
+Connecting to database specified by database.yml
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 143.5ms (Views: 93.3ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-23 03:28:36 -0300
+Served asset /application.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-10-23 03:28:36 -0300
+Served asset /posts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-23 03:28:36 -0300
+Served asset /jquery.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-23 03:28:36 -0300
+Served asset /application.js - 304 Not Modified (45ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-10-23 03:28:36 -0300
+Served asset /posts.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-23 03:28:36 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (23ms)
