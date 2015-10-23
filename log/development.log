@@ -1069,3 +1069,398 @@ Served asset /application.js - 304 Not Modified (38ms)
 
 Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-10-23 03:58:22 -0300
 Served asset /posts.css - 304 Not Modified (6ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2015-10-23 04:07:48 -0300
+Connecting to database specified by database.yml
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 122.7ms (Views: 72.9ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-23 04:07:49 -0300
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-10-23 04:07:49 -0300
+Served asset /posts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-10-23 04:07:49 -0300
+Served asset /posts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-23 04:07:49 -0300
+Served asset /jquery.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-23 04:07:49 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-23 04:07:49 -0300
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2015-10-23 04:09:06 -0300
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x67xtDoa/bXOJJ9dtSO6XOXmvOni71bGff9+DSPJgz4=", "post"=>{"title"=>"User", "content"=>"Hahahaha"}, "commit"=>"Create a New Post"}
+Completed 500 Internal Server Error in 0.5ms
+
+TypeError (can't convert Symbol into String):
+  app/controllers/posts_controller.rb:12:in `create'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.7ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-10-23 04:11:06 -0300
+Connecting to database specified by database.yml
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 107.3ms (Views: 58.0ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-23 04:11:07 -0300
+Served asset /application.css - 304 Not Modified (72ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-10-23 04:11:07 -0300
+Served asset /posts.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-23 04:11:07 -0300
+Served asset /jquery.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-10-23 04:11:07 -0300
+Served asset /posts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-23 04:11:07 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-23 04:11:07 -0300
+Served asset /application.js - 304 Not Modified (26ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2015-10-23 04:11:10 -0300
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 19.8ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-23 04:11:11 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-23 04:11:11 -0300
+Served asset /jquery.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-10-23 04:11:11 -0300
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-23 04:11:11 -0300
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-23 04:11:11 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-10-23 04:11:11 -0300
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2015-10-23 04:11:25 -0300
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x67xtDoa/bXOJJ9dtSO6XOXmvOni71bGff9+DSPJgz4=", "post"=>{"title"=>"user", "content"=>"hahahaha"}, "commit"=>"Create a New Post"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (84.6ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "hahahaha"], ["created_at", Fri, 23 Oct 2015 07:11:25 UTC +00:00], ["title", "user"], ["updated_at", Fri, 23 Oct 2015 07:11:25 UTC +00:00]]
+  [1m[35m (47.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 136.4ms (ActiveRecord: 132.7ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-10-23 04:11:25 -0300
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20.8ms (Views: 19.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-23 04:11:25 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-23 04:11:25 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (53ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-23 04:11:25 -0300
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-23 04:11:25 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-10-23 04:11:25 -0300
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-10-23 04:11:25 -0300
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2015-10-23 04:11:58 -0300
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 17.7ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-23 04:11:58 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-23 04:11:58 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-23 04:11:58 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-10-23 04:11:58 -0300
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-10-23 04:11:58 -0300
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-23 04:11:58 -0300
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-10-23 04:12:03 -0300
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered posts/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 24.0ms (Views: 15.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-23 04:12:03 -0300
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-10-23 04:12:03 -0300
+Served asset /posts.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-23 04:12:03 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-23 04:12:03 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-10-23 04:12:03 -0300
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-23 04:12:03 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/posts/2" for 127.0.0.1 at 2015-10-23 04:12:05 -0300
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", "2"]]
+Completed 404 Not Found in 1.7ms
+
+ActiveRecord::RecordNotFound (Couldn't find Post with id=2):
+  app/controllers/posts_controller.rb:6:in `show'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.7ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2015-10-23 04:12:12 -0300
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 16.8ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-23 04:12:12 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-10-23 04:12:12 -0300
+Served asset /posts.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-23 04:12:12 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-10-23 04:12:12 -0300
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-23 04:12:12 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-23 04:12:12 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2015-10-23 04:12:19 -0300
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x67xtDoa/bXOJJ9dtSO6XOXmvOni71bGff9+DSPJgz4=", "post"=>{"title"=>"", "content"=>""}, "commit"=>"Create a New Post"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (10.6ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", ""], ["created_at", Fri, 23 Oct 2015 07:12:19 UTC +00:00], ["title", ""], ["updated_at", Fri, 23 Oct 2015 07:12:19 UTC +00:00]]
+  [1m[35m (43.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 57.1ms (ActiveRecord: 54.6ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-10-23 04:12:19 -0300
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (5.3ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17.1ms (Views: 10.7ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-23 04:12:19 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-10-23 04:12:19 -0300
+Served asset /posts.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-23 04:12:19 -0300
+Served asset /jquery.js - 304 Not Modified (33ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-10-23 04:12:19 -0300
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-23 04:12:19 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-23 04:12:19 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-10-23 04:12:28 -0300
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2015-10-23 04:12:35 -0300
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 20.1ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-23 04:12:35 -0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-23 04:12:35 -0300
+Served asset /jquery.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-10-23 04:12:35 -0300
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-23 04:12:35 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-23 04:12:35 -0300
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-10-23 04:12:35 -0300
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2015-10-23 04:13:05 -0300
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x67xtDoa/bXOJJ9dtSO6XOXmvOni71bGff9+DSPJgz4=", "post"=>{"title"=>"nemuru", "content"=>"It's interesting."}, "commit"=>"Create a New Post"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "It's interesting."], ["created_at", Fri, 23 Oct 2015 07:13:05 UTC +00:00], ["title", "nemuru"], ["updated_at", Fri, 23 Oct 2015 07:13:05 UTC +00:00]]
+  [1m[35m (52.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 69.7ms (ActiveRecord: 52.8ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-10-23 04:13:05 -0300
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21.4ms (Views: 19.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-23 04:13:05 -0300
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-23 04:13:06 -0300
+Served asset /jquery.js - 304 Not Modified (49ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-10-23 04:13:06 -0300
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-23 04:13:06 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-23 04:13:06 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-10-23 04:13:06 -0300
+Served asset /posts.js - 304 Not Modified (0ms)
