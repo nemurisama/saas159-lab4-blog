@@ -3840,3 +3840,2788 @@ Served asset /posts.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-03 12:24:42 -0400
 Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-11-03 12:30:07 -0400
+Connecting to database specified by database.yml
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 128.3ms (Views: 76.3ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-03 12:30:07 -0400
+Served asset /application.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:07 -0400
+Served asset /application.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-11-03 12:30:07 -0400
+Served asset /posts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:07 -0400
+Served asset /posts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:08 -0400
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2015-11-03 12:30:11 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (22.3ms)
+Completed 200 OK in 41.4ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-03 12:30:11 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:12 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-11-03 12:30:12 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:12 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:12 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2015-11-03 12:30:17 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"svkTcGHf6k/24kMovhND9AB0A2E1AxVoocrpzaGLTm8=", "post"=>{"title"=>"asdfasdf", "content"=>"asdfasdf"}, "commit"=>"Create a New Post"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (25.5ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "asdfasdf"], ["created_at", Tue, 03 Nov 2015 16:30:17 UTC +00:00], ["title", "asdfasdf"], ["updated_at", Tue, 03 Nov 2015 16:30:17 UTC +00:00]]
+  [1m[35m (53.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 85.9ms (ActiveRecord: 79.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-11-03 12:30:17 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 24.9ms (Views: 23.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-03 12:30:17 -0400
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-11-03 12:30:17 -0400
+Served asset /posts.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:17 -0400
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:17 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:17 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:17 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/posts/7" for 127.0.0.1 at 2015-11-03 12:30:20 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "7"]]
+  Rendered posts/show.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 37.8ms (Views: 27.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-03 12:30:20 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-11-03 12:30:20 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:20 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:20 -0400
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:20 -0400
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/posts/7/edit" for 127.0.0.1 at 2015-11-03 12:30:24 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", "7"]]
+  Rendered posts/edit.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 25.8ms (Views: 17.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-03 12:30:24 -0400
+Served asset /application.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:24 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:24 -0400
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:24 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:24 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-11-03 12:30:24 -0400
+Served asset /posts.css - 304 Not Modified (4ms)
+
+
+Started PUT "/posts/7" for 127.0.0.1 at 2015-11-03 12:30:43 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"svkTcGHf6k/24kMovhND9AB0A2E1AxVoocrpzaGLTm8=", "post"=>{"title"=>"Hana", "content"=>"I hate running"}, "commit"=>"Save Changes", "id"=>"7"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "7"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (5.0ms)[0m  UPDATE "posts" SET "title" = 'Hana', "content" = 'I hate running', "updated_at" = '2015-11-03 16:30:43.624536' WHERE "posts"."id" = 7
+  [1m[36m (36.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/7
+Completed 302 Found in 62.4ms (ActiveRecord: 41.4ms)
+
+
+Started GET "/posts/7" for 127.0.0.1 at 2015-11-03 12:30:43 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "7"]]
+  Rendered posts/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 17.4ms (Views: 16.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-03 12:30:43 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:43 -0400
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:43 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-11-03 12:30:43 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:43 -0400
+Served asset /application.js - 304 Not Modified (70ms)
+
+
+Started DELETE "/posts/7" for 127.0.0.1 at 2015-11-03 12:30:48 -0400
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"svkTcGHf6k/24kMovhND9AB0A2E1AxVoocrpzaGLTm8=", "id"=>"7"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", "7"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (5.2ms)[0m  [1mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 7]]
+  [1m[35m (28.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 43.1ms (ActiveRecord: 33.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-11-03 12:30:48 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (2.8ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 33.0ms (Views: 28.6ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-03 12:30:48 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:48 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:48 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-11-03 12:30:48 -0400
+Served asset /posts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:48 -0400
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-11-03 12:30:48 -0400
+Served asset /posts.js - 304 Not Modified (4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 02:47:19 -0400
+Connecting to database specified by database.yml
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (78.0ms)
+Compiled default.css  (0ms)  (pid 3899)
+Compiled application.css  (24ms)  (pid 3899)
+Completed 200 OK in 662.5ms (Views: 468.5ms | ActiveRecord: 81.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 02:47:21 -0400
+Served asset /application.css - 200 OK (52ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 02:47:21 -0400
+Served asset /posts.css - 200 OK (31ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 02:47:21 -0400
+Served asset /default.css - 200 OK (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 02:47:21 -0400
+Served asset /jquery_ujs.js - 200 OK (19ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 02:47:21 -0400
+Served asset /jquery.js - 200 OK (46ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 02:47:22 -0400
+Served asset /posts.js - 200 OK (19ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 02:47:22 -0400
+Served asset /application.js - 200 OK (106ms)
+
+
+Started GET "/assets/images/main-bg.jpg" for 127.0.0.1 at 2015-12-02 02:47:22 -0400
+Served asset /images/main-bg.jpg - 404 Not Found (12ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.jpg"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-12-02 02:47:33 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered posts/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 29.2ms (Views: 13.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 02:47:33 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 02:47:33 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 02:47:33 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 02:47:33 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 02:47:34 -0400
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 02:47:34 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 02:47:34 -0400
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/images/main-bg.jpg" for 127.0.0.1 at 2015-12-02 02:47:34 -0400
+Served asset /images/main-bg.jpg - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.jpg"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 02:53:05 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 43.0ms (Views: 40.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 02:53:05 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 02:53:05 -0400
+Served asset /jquery.js - 304 Not Modified (45ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 02:53:05 -0400
+Served asset /posts.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 02:53:05 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 02:53:05 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 02:53:05 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 02:53:05 -0400
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/images/main-bg.jpg" for 127.0.0.1 at 2015-12-02 02:53:05 -0400
+Served asset /images/main-bg.jpg - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.jpg"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 02:56:20 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 36.8ms (Views: 35.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 02:56:21 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 02:56:21 -0400
+Served asset /posts.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 02:56:21 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 02:56:21 -0400
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 02:56:21 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 02:56:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 02:56:21 -0400
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/images/main-bg.jpg" for 127.0.0.1 at 2015-12-02 02:56:21 -0400
+Served asset /images/main-bg.jpg - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.jpg"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 02:57:12 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (33.9ms)
+Completed 200 OK in 101.1ms (Views: 97.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 02:57:12 -0400
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 02:57:12 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 02:57:12 -0400
+Served asset /jquery.js - 304 Not Modified (91ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 02:57:12 -0400
+Served asset /posts.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 02:57:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 02:57:12 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 02:57:12 -0400
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/images/main-bg.jpg" for 127.0.0.1 at 2015-12-02 02:57:13 -0400
+Served asset /images/main-bg.jpg - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.jpg"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 02:57:16 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 41.1ms (Views: 34.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 02:57:16 -0400
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 02:57:16 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 02:57:16 -0400
+Served asset /posts.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 02:57:16 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 02:57:16 -0400
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 02:57:16 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 02:57:16 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/images/main-bg.jpg" for 127.0.0.1 at 2015-12-02 02:57:17 -0400
+Served asset /images/main-bg.jpg - 404 Not Found (11ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.jpg"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.6ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 02:57:35 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 76.8ms (Views: 71.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 02:57:36 -0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 02:57:36 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 02:57:36 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 02:57:36 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 02:57:36 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 02:57:36 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 02:57:36 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/main-bg.jpg" for 127.0.0.1 at 2015-12-02 02:57:36 -0400
+Served asset /images/main-bg.jpg - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.jpg"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 02:57:52 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (4.0ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 94.8ms (Views: 88.7ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 02:57:52 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 02:57:52 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 02:57:52 -0400
+Served asset /default.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 02:57:52 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 02:57:52 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 02:57:52 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 02:57:52 -0400
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/images/main-bg.jpg" for 127.0.0.1 at 2015-12-02 02:57:53 -0400
+Served asset /images/main-bg.jpg - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.jpg"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 02:59:47 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (5.0ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 73.7ms (Views: 65.6ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 02:59:47 -0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 02:59:47 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 02:59:47 -0400
+Served asset /posts.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 02:59:47 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 02:59:47 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 02:59:47 -0400
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 02:59:47 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/main-bg.jpg" for 127.0.0.1 at 2015-12-02 02:59:47 -0400
+Served asset /images/main-bg.jpg - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.jpg"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:00:20 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 62.9ms (Views: 60.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:00:20 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:00:20 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:00:21 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:00:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:00:21 -0400
+Served asset /jquery.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:00:21 -0400
+Served asset /posts.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:00:21 -0400
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/images/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:00:21 -0400
+Served asset /images/main-bg.jpg - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.jpg"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2015-12-02 03:00:24 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (39.4ms)
+Completed 200 OK in 50.3ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:00:24 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:00:24 -0400
+Served asset /posts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:00:24 -0400
+Served asset /default.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:00:24 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:00:24 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:00:24 -0400
+Served asset /posts.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:00:24 -0400
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/images/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:00:25 -0400
+Served asset /images/main-bg.jpg - 404 Not Found (10ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.jpg"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2015-12-02 03:00:49 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KzDHS4sbH38fF8MuEK5rLGPQBQDERpMMFbvIQz7lyVo=", "post"=>{"title"=>"chino", "content"=>"chino is cute"}, "commit"=>"Create a New Post"}
+  [1m[36m (7.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (50.0ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["content", "chino is cute"], ["created_at", Wed, 02 Dec 2015 07:00:49 UTC +00:00], ["title", "chino"], ["updated_at", Wed, 02 Dec 2015 07:00:49 UTC +00:00]]
+  [1m[36m (46.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 112.6ms (ActiveRecord: 103.3ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:00:49 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 53.9ms (Views: 52.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:00:49 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:00:49 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:00:49 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:00:49 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:00:49 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:00:49 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:00:49 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/images/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:00:50 -0400
+Served asset /images/main-bg.jpg - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.jpg"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/posts/8" for 127.0.0.1 at 2015-12-02 03:01:00 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", "8"]]
+  Rendered posts/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 47.4ms (Views: 13.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:01:01 -0400
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:01:01 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:01:01 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:01 -0400
+Served asset /jquery.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:01 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:01 -0400
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/images/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:01:01 -0400
+Served asset /images/main-bg.jpg - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.jpg"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started DELETE "/posts/8" for 127.0.0.1 at 2015-12-02 03:01:09 -0400
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"KzDHS4sbH38fF8MuEK5rLGPQBQDERpMMFbvIQz7lyVo=", "id"=>"8"}
+  [1m[35mPost Load (0.0ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "8"]]
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = ?  [["id", 8]]
+  [1m[36m (48.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 52.2ms (ActiveRecord: 49.4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:01:09 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 35.6ms (Views: 34.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:01:09 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:01:09 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:01:09 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:09 -0400
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:09 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:09 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:09 -0400
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/images/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:01:09 -0400
+Served asset /images/main-bg.jpg - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.jpg"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.4ms)
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2015-12-02 03:01:16 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered posts/edit.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 42.7ms (Views: 40.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:01:16 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:01:16 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:01:16 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:16 -0400
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:16 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:16 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:16 -0400
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/images/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:01:16 -0400
+Served asset /images/main-bg.jpg - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.jpg"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started PUT "/posts/1" for 127.0.0.1 at 2015-12-02 03:01:19 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KzDHS4sbH38fF8MuEK5rLGPQBQDERpMMFbvIQz7lyVo=", "post"=>{"title"=>"First Post Title", "content"=>"First Post Content"}, "commit"=>"Save Changes", "id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 14.4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-12-02 03:01:19 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered posts/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 51.9ms (Views: 43.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:01:19 -0400
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:01:19 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:19 -0400
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:19 -0400
+Served asset /posts.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:01:19 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:19 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:19 -0400
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/images/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:01:20 -0400
+Served asset /images/main-bg.jpg - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.jpg"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:01:22 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 15.5ms (Views: 12.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:01:23 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:01:23 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:23 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:01:23 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:23 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:23 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:01:23 -0400
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/images/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:01:23 -0400
+Served asset /images/main-bg.jpg - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.jpg"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:05:57 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.0ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (23.7ms)
+Compiled default.css  (0ms)  (pid 3899)
+Compiled application.css  (20ms)  (pid 3899)
+Completed 200 OK in 305.7ms (Views: 301.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:05:57 -0400
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:05:57 -0400
+Served asset /default.css - 200 OK (11ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:05:57 -0400
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:05:57 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:05:57 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:05:57 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:05:57 -0400
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:05:58 -0400
+Served asset /main-bg.jpg - 200 OK (21ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:07:39 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 32.4ms (Views: 31.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:07:39 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:07:39 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:07:39 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:07:39 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:07:39 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:07:39 -0400
+Served asset /posts.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:07:40 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:07:40 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/img01.jpg" for 127.0.0.1 at 2015-12-02 03:07:40 -0400
+Served asset /img01.jpg - 200 OK (28ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:08:21 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (22.3ms)
+Completed 200 OK in 105.4ms (Views: 92.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:08:22 -0400
+Served asset /application.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:08:22 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:08:22 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:08:22 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:08:22 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:08:22 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:08:22 -0400
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:08:22 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:14:07 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 40.3ms (Views: 38.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:14:07 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:14:07 -0400
+Served asset /default.css - 304 Not Modified (83ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:14:07 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:14:07 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:14:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:14:07 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:14:07 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:14:07 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:15:00 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 93.3ms (Views: 87.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:15:00 -0400
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:15:00 -0400
+Served asset /default.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:15:00 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:15:00 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:15:00 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:15:00 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:15:00 -0400
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:15:00 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:15:47 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 36.4ms (Views: 35.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:15:47 -0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:15:47 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:15:47 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:15:47 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:15:47 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:15:47 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:15:47 -0400
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:15:48 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2015-12-02 03:16:25 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered posts/edit.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 30.4ms (Views: 21.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:16:25 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:16:25 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:16:25 -0400
+Served asset /jquery.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:16:25 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:16:25 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:16:25 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:16:25 -0400
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:16:25 -0400
+Served asset /main-bg.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:17:23 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 38.5ms (Views: 37.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:17:23 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:17:23 -0400
+Served asset /default.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:17:23 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:17:23 -0400
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:17:23 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:17:23 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:17:23 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:17:23 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-12-02 03:17:39 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered posts/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 15.0ms (Views: 12.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:17:39 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:17:39 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:17:39 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:17:39 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:17:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:17:40 -0400
+Served asset /posts.js - 304 Not Modified (69ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:17:40 -0400
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:17:40 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-12-02 03:18:32 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered posts/show.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 92.6ms (Views: 78.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:18:32 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:18:32 -0400
+Served asset /default.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:18:32 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:18:32 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:18:32 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:18:32 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:18:32 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:18:33 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:18:36 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 24.8ms (Views: 20.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:18:36 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:18:36 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:18:36 -0400
+Served asset /default.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:18:36 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:18:36 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:18:36 -0400
+Served asset /posts.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:18:36 -0400
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:18:36 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:22:09 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 94.2ms (Views: 90.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:22:09 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:22:09 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:22:09 -0400
+Served asset /posts.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:22:09 -0400
+Served asset /jquery.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:22:09 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:22:09 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:22:09 -0400
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:22:09 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/img01.jpg" for 127.0.0.1 at 2015-12-02 03:22:09 -0400
+Served asset /img01.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:23:15 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (2.0ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 29.5ms (Views: 26.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:23:15 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:23:15 -0400
+Served asset /posts.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:23:15 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:23:15 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:23:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:23:15 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:23:15 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:23:16 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/img01.jpg" for 127.0.0.1 at 2015-12-02 03:23:16 -0400
+Served asset /img01.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:24:31 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (4.8ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 44.5ms (Views: 38.1ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:24:31 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:24:31 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:24:31 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:24:31 -0400
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:24:31 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:24:31 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:24:31 -0400
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:24:31 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/img01.jpg" for 127.0.0.1 at 2015-12-02 03:24:31 -0400
+Served asset /img01.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-12-02 03:24:40 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered posts/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 15.9ms (Views: 14.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:24:40 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:24:40 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:24:40 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:24:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:24:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:24:40 -0400
+Served asset /posts.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:24:40 -0400
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:24:40 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:24:43 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 17.1ms (Views: 15.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:24:43 -0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:24:43 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:24:43 -0400
+Served asset /posts.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:24:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:24:43 -0400
+Served asset /jquery.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:24:43 -0400
+Served asset /posts.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:24:43 -0400
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:24:43 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/img01.jpg" for 127.0.0.1 at 2015-12-02 03:24:43 -0400
+Served asset /img01.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:25:56 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 100.7ms (Views: 98.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:25:56 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:25:56 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:25:56 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:25:56 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:25:56 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:25:56 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:25:56 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:25:56 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/img01.jpg" for 127.0.0.1 at 2015-12-02 03:25:56 -0400
+Served asset /img01.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-12-02 03:26:07 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered posts/show.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 27.5ms (Views: 26.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:07 -0400
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:07 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:07 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:08 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:08 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:08 -0400
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:08 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:26:08 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:26:10 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 29.0ms (Views: 26.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:10 -0400
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:10 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:10 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:10 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:10 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:10 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:10 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:26:11 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/img01.jpg" for 127.0.0.1 at 2015-12-02 03:26:11 -0400
+Served asset /img01.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2015-12-02 03:26:13 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered posts/edit.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 93.2ms (Views: 86.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:13 -0400
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:13 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:13 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:13 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:13 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:14 -0400
+Served asset /posts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:14 -0400
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:26:14 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started PUT "/posts/1" for 127.0.0.1 at 2015-12-02 03:26:18 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KzDHS4sbH38fF8MuEK5rLGPQBQDERpMMFbvIQz7lyVo=", "post"=>{"title"=>"First Post Title", "content"=>"First Post Content"}, "commit"=>"Save Changes", "id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 8.1ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-12-02 03:26:18 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered posts/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 28.5ms (Views: 18.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:18 -0400
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:18 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:18 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:18 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:18 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:18 -0400
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:18 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:26:19 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:26:22 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 17.4ms (Views: 16.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:22 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:22 -0400
+Served asset /jquery.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:22 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:22 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:22 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:22 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:22 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:26:23 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/img01.jpg" for 127.0.0.1 at 2015-12-02 03:26:23 -0400
+Served asset /img01.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2015-12-02 03:26:25 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 26.6ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:26 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:26 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:26 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:26 -0400
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:26 -0400
+Served asset /posts.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:26 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:26:26 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2015-12-02 03:26:37 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KzDHS4sbH38fF8MuEK5rLGPQBQDERpMMFbvIQz7lyVo=", "post"=>{"title"=>"chino", "content"=>"chino is cute!~"}, "commit"=>"Create a New Post"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "chino is cute!~"], ["created_at", Wed, 02 Dec 2015 07:26:37 UTC +00:00], ["title", "chino"], ["updated_at", Wed, 02 Dec 2015 07:26:37 UTC +00:00]]
+  [1m[35m (65.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 69.0ms (ActiveRecord: 65.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:26:37 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 55.8ms (Views: 39.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:38 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:38 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:38 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:38 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:38 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:38 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:38 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:26:38 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/img01.jpg" for 127.0.0.1 at 2015-12-02 03:26:38 -0400
+Served asset /img01.jpg - 304 Not Modified (0ms)
+
+
+Started DELETE "/posts/9" for 127.0.0.1 at 2015-12-02 03:26:50 -0400
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"KzDHS4sbH38fF8MuEK5rLGPQBQDERpMMFbvIQz7lyVo=", "id"=>"9"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = ?  [["id", 9]]
+  [1m[36m (40.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 49.7ms (ActiveRecord: 42.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:26:50 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 31.0ms (Views: 22.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:50 -0400
+Served asset /application.css - 304 Not Modified (96ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:50 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:50 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:50 -0400
+Served asset /posts.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:50 -0400
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:26:50 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:26:50 -0400
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:26:50 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/img01.jpg" for 127.0.0.1 at 2015-12-02 03:26:50 -0400
+Served asset /img01.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:28:21 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (26.4ms)
+Completed 200 OK in 82.4ms (Views: 79.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:28:22 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:28:22 -0400
+Served asset /default.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:28:22 -0400
+Served asset /posts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:28:22 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:28:22 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:28:22 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:28:22 -0400
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:28:22 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/img01.jpg" for 127.0.0.1 at 2015-12-02 03:28:22 -0400
+Served asset /img01.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-02 03:34:53 -0400
+
+AbstractController::ActionNotFound (The action 'indexss' could not be found for PostsController):
+  actionpack (3.2.16) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.16) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.16) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.16) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.16) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.16) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.16) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.16) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.16) lib/action_dispatch/routing/route_set.rb:608:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.7) lib/rack/etag.rb:23:in `call'
+  rack (1.4.7) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.7) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.7) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.16) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.16) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:405:in `_run__309460570__call__371458865__callbacks'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.16) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:35:03 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 49.3ms (Views: 24.2ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:35:03 -0400
+Served asset /application.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:35:03 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:35:03 -0400
+Served asset /posts.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:35:03 -0400
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:35:03 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:35:03 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:35:03 -0400
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:35:04 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/img01.jpg" for 127.0.0.1 at 2015-12-02 03:35:04 -0400
+Served asset /img01.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-02 03:35:21 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 58.4ms (Views: 11.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:35:21 -0400
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:35:21 -0400
+Served asset /posts.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:35:21 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:35:21 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:35:21 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:35:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:35:21 -0400
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:35:22 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/img01.jpg" for 127.0.0.1 at 2015-12-02 03:35:22 -0400
+Served asset /img01.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-12-02 03:35:41 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered posts/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 18.3ms (Views: 14.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:35:41 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:35:41 -0400
+Served asset /posts.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:35:41 -0400
+Served asset /default.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:35:41 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:35:41 -0400
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:35:41 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:35:42 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:35:42 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:35:44 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 15.1ms (Views: 9.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:35:44 -0400
+Served asset /application.css - 304 Not Modified (55ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:35:44 -0400
+Served asset /default.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:35:44 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:35:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:35:44 -0400
+Served asset /posts.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:35:44 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:35:44 -0400
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:35:45 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/img01.jpg" for 127.0.0.1 at 2015-12-02 03:35:45 -0400
+Served asset /img01.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-12-02 03:39:43 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered posts/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11.1ms (Views: 8.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:39:44 -0400
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:39:44 -0400
+Served asset /default.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:39:44 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:39:44 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:39:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:39:44 -0400
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:39:44 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:39:44 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-12-02 03:39:47 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 32.3ms (Views: 17.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-02 03:39:48 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2015-12-02 03:39:48 -0400
+Served asset /default.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-02 03:39:48 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-12-02 03:39:48 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-02 03:39:48 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-12-02 03:39:48 -0400
+Served asset /posts.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-02 03:39:48 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main-bg.jpg" for 127.0.0.1 at 2015-12-02 03:39:48 -0400
+Served asset /main-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/img01.jpg" for 127.0.0.1 at 2015-12-02 03:39:48 -0400
+Served asset /img01.jpg - 304 Not Modified (0ms)
