@@ -1,11 +1,12 @@
 source 'https://rubygems.org'
 
+ruby '1.9.3'
 gem 'rails', '3.2.16'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+# gem 'sqlite3'
 
 
 # Gems used only for assets and not required
@@ -21,6 +22,20 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+group :development, :test do #under development
+	gem 'sqlite3'
+end
+
+group :production do
+	gem 'pg'
+end
+
+group :production do
+	gem 'thin'
+end
+
+gem 'heroku'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
